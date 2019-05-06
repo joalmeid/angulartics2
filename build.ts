@@ -9,6 +9,7 @@ const CORE_MODULE_NAMES = ['uiroutermodule', 'routerlessmodule'];
 const MODULE_NAMES = [
   'adobeanalytics',
   'appinsights',
+  'eventhubs',
   'baidu',
   'facebook',
   'ga',

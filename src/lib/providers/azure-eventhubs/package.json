@@ -1,0 +1,18 @@
+{
+  "$schema": "../../../../node_modules/ng-packagr/package.schema.json",
+  "name": "angulartics2/eventhubs",
+  "description": "The eventhubs module",
+  "homepage": "https://angulartics.github.io/angulartics2/",
+  "author": "Zurich OWL Hackfest",
+  "repository": "angulartics/angulartics2",
+  "license": "MIT",
+  "ngPackage": {
+    "lib": {
+      "entryFile": "eventhubs.ts",
+      "umdModuleIds": {
+        "angulartics2": "angulartics2"
+      }
+    },
+    "dest": "../../../../dist/packages-dist/eventhubs"
+  }
+}

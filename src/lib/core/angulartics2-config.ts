@@ -7,6 +7,14 @@ export interface GoogleAnalyticsSettings {
   anonymizeIp: boolean;
 }
 
+export interface EventHubsSettings {
+  userId: string;
+  sessionId: string;
+  pageId: string;
+  evtHubName: string;
+  evtHubConnString: string;
+}
+
 export interface AppInsightsSettings {
   userId: string;
 }
@@ -42,6 +50,7 @@ export interface Angulartics2Settings {
   developerMode: boolean;
   ga: Partial<GoogleAnalyticsSettings>;
   appInsights: Partial<AppInsightsSettings>;
+  eventHubs: Partial<EventHubsSettings>;
   gtm: Partial<GoogleTagManagerSettings>;
   gst: Partial<GoogleGlobalSiteTagSettings>;
 }
@@ -59,6 +68,7 @@ export class DefaultConfig implements Angulartics2Settings {
   developerMode = false;
   ga = {};
   appInsights = {};
+  eventHubs = {};
   gtm = {};
   gst = {};
 }

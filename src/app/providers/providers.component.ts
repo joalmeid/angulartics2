@@ -25,6 +25,11 @@ export class ProvidersComponent {
       type: 'Analytics',
     },
     {
+      name: 'eventhubs',
+      display: 'Azure Event Hubs',
+      type: 'Analytics',
+    },
+    {
       name: 'baidu',
       display: 'Baidu',
       type: 'Analytics',
